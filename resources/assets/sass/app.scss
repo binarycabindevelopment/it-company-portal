@@ -1,0 +1,102 @@
+$breadcrumb-bg: #f3f5f7;
+$breadcrumb-color: #b0b0be;
+$breadcrumb-active-color: #9c9caa;
+$breadcrumb-padding-y: 5px;
+
+$mdi-font-path: "/fonts/vendor/materialdesignicons";
+@import "../../../node_modules/mdi/scss/materialdesignicons";
+
+$simple-line-font-path: "/fonts/vendor/simple-line-icons/";
+$simple-line-font-family: "simple-line-icons";
+$simple-line-icon-prefix: "icon-";
+@import "../../../node_modules/simple-line-icons/scss/simple-line-icons";
+
+@import "../../../node_modules/chartist/dist/scss/chartist";
+
+$fa-font-path: "/fonts/vendor/font-awesome";
+@import "../../../node_modules/font-awesome/scss/font-awesome";
+
+@import "../vendor/stellar-dashboard/scss/style";
+@import "../vendor/datatables/sass/bs4";
+@import "../vendor/datatables/sass/select";
+
+@import "components/table";
+@import "components/agenda-list";
+@import "components/day-selector";
+
+.breadcrumb{
+  font-size:12px;
+  a{
+    color:#b0b0be;
+    &:hover{
+      color: #8a8a96;
+    }
+  }
+}
+
+/*$body-bg: #636b6f;
+
+$border-radius:          2px;
+$border-radius-lg:       2px;
+$border-radius-sm:       2px;
+
+$gray: #364150;
+
+$theme-colors: (
+        primary: #059f20,
+        secondary: #555555,
+        success: #28a745,
+        info: #17a2b8,
+        warning: #ffc107,
+        danger: #dc3545,
+        light: #f8f9fa,
+        dark: #343a40
+) !default;
+
+$list-group-bg: $gray;
+$list-group-hover-bg: darken($gray,10%);
+$list-group-action-color: #b4bcc8;
+$list-group-action-hover-color: #FFFFFF;
+$list-group-action-active-bg: #000;
+
+$breadcrumb-bg: $gray;
+$breadcrumb-active-color: lighten($gray,50%);
+
+$link-color: $gray;
+
+$font-size-base: .9rem;
+
+  // Icons
+@import "node_modules/font-awesome/scss/font-awesome";
+
+// Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
+
+//Select2
+@import "node_modules/select2/src/scss/core";
+
+//DateTime Picker
+@import "../vendor/jquery-datetimepicker/jquery-datetimepicker";
+@import "../vendor/fullcalendar/fullcalendar";
+
+.card{
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.nav-tabs{
+  border-color: theme-color('dark');
+  .nav-item{
+    > .nav-link{
+      background-color: $gray;
+      color:#DDD;
+      border-color: theme-color('dark');
+    }
+    &.active{
+      > .nav-link{
+        background-color: theme-color('dark');
+        color:#FFF;
+        border-color: theme-color('dark');
+      }
+    }
+  }
+}*/

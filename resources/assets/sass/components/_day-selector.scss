@@ -1,0 +1,11 @@
+.day-selector{
+  display: flex;
+  justify-content: center;
+  > div{
+    align-self:center;
+  }
+  .selector-label{
+    padding:0px 20px;
+    font-weight: bold;
+  }
+}

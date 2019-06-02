@@ -1,0 +1,93 @@
+<?php
+
+namespace App\Support\Markers\Repositories;
+
+class MarkerRepository{
+
+    public static function icons(){
+        return [
+            'alert-triangle',
+            'align-center',
+            'aperture',
+            'arrow-down',
+            'arrow-up',
+            'award',
+            'bar-chart',
+            'battery',
+            'battery-charging',
+            'bell',
+            'bluetooth',
+            'book',
+            'bookmark',
+            'box',
+            'briefcase',
+            'calendar',
+            'camera',
+            'cast',
+            'check',
+            'clipboard',
+            'clock',
+            'cloud',
+            'codepen',
+            'command',
+            'compass',
+            'copy',
+            'cpu',
+            'credit-card',
+            'crosshair',
+            'disc',
+            'download',
+            'eye',
+            'file',
+            'film',
+            'flag',
+            'folder',
+            'globe',
+            'grid',
+            'hash',
+            'headphones',
+            'home',
+            'image',
+            'inbox',
+            'info',
+            'layers',
+            'life-buoy',
+            'link',
+            'list',
+            'lock',
+            'mic',
+            'monitor',
+            'phone',
+            'pie-chart',
+            'power',
+            'printer',
+            'radio',
+            'save',
+            'search',
+            'server',
+            'settings',
+            'shield',
+            'slash',
+            'speaker',
+            'star',
+            'sun',
+            'target',
+            'thermometer',
+            'trash',
+            'user',
+            'users',
+            'video',
+            'voicemail',
+            'volume-2',
+            'wifi',
+            'zap',
+        ];
+    }
+
+    public static function styles(){
+        return [
+            'white',
+        ];
+    }
+
+}
